@@ -60,6 +60,17 @@
       font-weight: bold;
       color: #666;
     }
+
+          .video-box {
+        max-width: 800px;
+        margin: auto;
+      }
+      
+      .video-box video {
+        width: 100%;
+        border-radius: 16px;
+        box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+      }
     .menu {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -191,6 +202,17 @@
       <button class="nav next">❯</button>
     </div>
   </section>
+  <section>
+  <h2>🎥 Video Geprek</h2>
+
+  <div class="video-box">
+    <iframe
+      src="https://www.youtube.com/embed/ID_VIDEO"
+      frameborder="0"
+      allowfullscreen>
+    </iframe>
+  </div>
+</section>
 
   <!-- MENU -->
   <section>
@@ -244,3 +266,4 @@
 
 </body>
 </html>
+
